@@ -17,7 +17,7 @@
 |  POST  | password  | String | password user        |
 |  POST  | level     | int    | confident level      |
 
-Contoh JSON (untuk mengecek pada postman):
+Contoh (JSON):
 ```
 {
     "name" : "hi",
@@ -56,3 +56,45 @@ Contoh JSON (untuk mengecek pada postman):
 | Method |                                 URL                                 |
 |:------:|:-------------------------------------------------------------------:|
 |   GET  | https://us-central1-actyourpose.cloudfunctions.net/app/api/get/{id} |
+
+
+---
+
+
+## Dokumentasi API Pictures
+
+- ```get all Bali Data```
+
+| Method |                                 URL                                |
+|:------:|:------------------------------------------------------------------:|
+|   GET  | https://us-central1-actyourpose.cloudfunctions.net/app/api/getBali |
+
+- ```get Bali Data by id```
+
+| Method |                                  URL                                 |
+|:------:|:--------------------------------------------------------------------:|
+|   GET  | https://us-central1-actyourpose.cloudfunctions.net/app/api/bali/{id} |
+
+- ```get All Bandung Data```
+
+| Method |                                  URL                                  |
+|:------:|:---------------------------------------------------------------------:|
+|   GET  | https://us-central1-actyourpose.cloudfunctions.net/app/api/getBandung |
+
+- ```get Bandung Data by id```
+
+| Method |                                   URL                                   |
+|:------:|:-----------------------------------------------------------------------:|
+|   GET  | https://us-central1-actyourpose.cloudfunctions.net/app/api/bandung/{id} |
+
+- ```get All Papua Data```
+
+| Method |                                 URL                                 |
+|:------:|:-------------------------------------------------------------------:|
+|   GET  | https://us-central1-actyourpose.cloudfunctions.net/app/api/getPapua |
+
+- ```get Papua Data by id```
+
+| Method |                                  URL                                  |
+|:------:|:---------------------------------------------------------------------:|
+|   GET  | https://us-central1-actyourpose.cloudfunctions.net/app/api/papua/{id} |
